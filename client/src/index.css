@@ -1,0 +1,68 @@
+/* src/index.css */
+:root {
+  --primary-color: #646cff;
+  --primary-hover: #535bf2;
+  --background-dark: #242424;
+  --text-light: rgba(255, 255, 255, 0.87);
+  --background-light: #ffffff;
+  --text-dark: #213547;
+  --button-dark: #1a1a1a;
+  --button-light: #f9f9f9;
+  --navbar-height: 60px;
+}
+
+/* Reset y estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-light);
+  background-color: var(--background-dark);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tipografía */
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Enlaces */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
